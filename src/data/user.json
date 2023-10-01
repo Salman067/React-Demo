@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Salman",
+        "age": "23",
+        "phones": [
+            {"home":"01234234","office": "9890989"}
+        ]
+    },
+    {
+        "name": "Mahmud",
+        "age": "24",
+        "phones": [
+            {"home":"01234234","office": "9890989"}     
+        ]
+    }
+]
