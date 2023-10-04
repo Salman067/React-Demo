@@ -7,6 +7,8 @@ padding: 0;
 background-color:rgb(84, 83, 83);
 width: 100%;
 margin: auto;
+position: fixed;
+z-index: 2;
 }
 
 #subheading{
@@ -21,8 +23,10 @@ margin: auto;
 border:2px dashed green;
 display: flex;
 flex-wrap: wrap;
-flex-grow: 1;
 justify-content: space-around;
+position: relative;
+top: 70px;
+z-index: 1;
 }
 
 .card{
@@ -40,12 +44,12 @@ justify-content: space-around;
     border: 2px dotted white;
 }
 
-.card:hover {
+/* .card:hover {
     box-shadow: 0 8px 16px 0 rgba(185, 156, 156, 0.2);
     width: 30%;
     height: 500px;
     overflow: scroll;
-  }
+  } */
  .card1{
    margin-top: 10px;
    text-align: left;
